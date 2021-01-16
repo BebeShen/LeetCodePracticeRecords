@@ -3,6 +3,8 @@ I recently start to practice Leetcode's problems .Thus,I would like to use this 
 
 ## 已完成
 
+總計：`32題`
+
 題目          | 完成日期 | Program Language |
 --------------|:-----:|:----:|
 [2. Add Two Numbers]() | 2021/01/15 |    c++ |
