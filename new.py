@@ -54,7 +54,7 @@ def add(path):
             # print(str(p) +" | "+today+" |    c++ |\n")
 # add(path)
 
-# Usage:`python .\rename.py <dirname>`
+# Usage:`python .\new.py <dirname>`
 def new(path,name):
     dirname = os.path.join(path, name)
     if not os.path.exists(name):
