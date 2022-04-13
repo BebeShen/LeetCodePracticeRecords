@@ -27,5 +27,13 @@ Constraints:
 https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
 
 ---
+
+==Solution==
+
 Runtime: 4 ms, faster than 51.28% of C++ online submissions for Subtract the Product and Sum of Digits of an Integer.
 Memory Usage: 8.2 MB, less than 100.00% of C++ online submissions for Subtract the Product and Sum of Digits of an Integer.
+
+==FasterSolution==
+
+Runtime: 0 ms, faster than 100.00% of C++ online submissions for Subtract the Product and Sum of Digits of an Integer.
+Memory Usage: 5.9 MB, less than 71.57% of C++ online submissions for Subtract the Product and Sum of Digits of an Integer.
