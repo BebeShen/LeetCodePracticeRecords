@@ -3,6 +3,7 @@ I recently start to practice Leetcode's problems .Thus,I would like to use this 
 
 ## 已完成
 
+<!--start-->
 總計：`32題`
 
 題目          | 完成日期 | Program Language |
@@ -40,3 +41,4 @@ I recently start to practice Leetcode's problems .Thus,I would like to use this 
 [1342. Number of Steps to Reduce a Number to Zero]() | 2021/01/15 |    c++ |
 [1351. Count Negative Numbers in a Sorted Matrix]() | 2021/01/15 |    c++ |
 [1658. Minimum Operations to Reduce X to Zero]() | 2021/01/16 |    c++ |
+<!--end-->
