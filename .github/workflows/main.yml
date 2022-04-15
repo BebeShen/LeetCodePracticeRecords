@@ -6,7 +6,9 @@ name: Update README
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: 
+      - master
+      - ga
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -19,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: Prints the current branch name
+    - name: Prints the current branch name & list current working dir
       run: |
         echo "${GITHUB_BRANCH##*/}"
         ls -al
@@ -28,10 +30,16 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v3
 
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: echo Hello, world!
+    - name: After Checks-out, list current working dir
+      run:
+        ls -al
+      env:
+        GITHUB_BRANCH: ${{ github.ref }}
 
+    # Runs a single command using the runners shell
+    - name: Run a one-line script & list current working dir
+      run: echo Hello, world!
+      
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
