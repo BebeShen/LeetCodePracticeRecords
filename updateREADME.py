@@ -30,6 +30,7 @@ total_str = "總計 `"+str(len(names))+"` 題\n"
 
 form_str = "\n題目          | 完成日期 | Program Language |\n--------------|:-----:|:----:|\n"
 
+print(times)
 # exit()
 
 with open('README.md', 'w', encoding='utf8') as f:
@@ -43,3 +44,9 @@ with open('README.md', 'w', encoding='utf8') as f:
         f.write(" | ")
         f.write('C++')
         f.write("\n")
+
+    # Add todo
+    f.write('\n\n')
+    f.write('## TODO\n\n')
+    f.write('- [] Finish Time different on repo & local (cause by github action)')
+
