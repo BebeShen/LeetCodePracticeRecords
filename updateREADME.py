@@ -48,5 +48,5 @@ with open('README.md', 'w', encoding='utf8') as f:
     # Add todo
     f.write('\n\n')
     f.write('## TODO\n\n')
-    f.write('- [] Finish Time different on repo & local (cause by github action)')
+    f.write('- [ ] Finish Time different on repo & local (cause by github action)')
 
