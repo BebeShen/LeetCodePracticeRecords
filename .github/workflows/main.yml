@@ -35,8 +35,16 @@ jobs:
         ls -al
       env:
         GITHUB_BRANCH: ${{ github.ref }}
-      
+        
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+        architecture: x64
     # Update README by python script
     - name: Run update README script
-      run: 
+      run: |-
         python updateREADME.py
+        cat README.md
