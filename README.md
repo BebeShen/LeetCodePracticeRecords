@@ -2,7 +2,7 @@
 I recently start to practice Leetcode's problems .Thus,I would like to use this to record the code and how i thought during coding these problems
 
 ## 已完成
-總計 `47` 題
+總計 `` 題
 
 題目          | 完成日期 | Program Language |
 --------------|:-----:|:----:|
