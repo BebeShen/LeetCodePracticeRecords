@@ -57,4 +57,8 @@ I recently start to practice Leetcode's problems .Thus,I would like to use this 
 
 ## TODO
 
+<<<<<<< HEAD
 - [ ] Finish Time different on repo & local (cause by github action)
+=======
+- [] Finish Time different on repo & local (cause by github action)
+>>>>>>> ga
