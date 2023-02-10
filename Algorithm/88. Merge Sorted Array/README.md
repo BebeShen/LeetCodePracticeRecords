@@ -20,8 +20,8 @@ Output: [1]
 ```
 ---
 
-Runtime: `4 ms`, faster than `70.14%` of C++ online submissions for Merge Sorted Array.
-Memory Usage: `9.1 MB`, less than `99.04%` of C++ online submissions for Merge Sorted Array.
+Runtime: `0 ms`, faster than `100.00%` of C++ online submissions for Merge Sorted Array.
+Memory Usage: `8.9 MB`, less than `99.53%` of C++ online submissions for Merge Sorted Array.
 
 ---
 
